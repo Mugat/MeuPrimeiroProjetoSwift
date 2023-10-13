@@ -1,0 +1,8 @@
+let Steve = "Steve"
+var optionalString: String? = "Jobs"
+
+print("Nome: \(Steve), Sobrenome: \(optionalString ?? "Mugato")")
+
+if let unwrappedString = optionalString {
+    print("Nome: \(Steve), Sobrenome: \(unwrappedString)")
+}
